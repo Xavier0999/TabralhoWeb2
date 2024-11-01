@@ -1,0 +1,59 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background-color: #e9f4f3;
+    border: 1px solid #b3e1dc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 700px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    background-color: #0066cc;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-right: 12px;
+    position: absolute;
+    top: -14px;
+    left: -13px;
+
+}
+
+.icone svg {
+    margin-right: 8px;
+fill: white;
+}
+
+.icone span {
+    color: white;
+}
+
+.lorem {
+    color: #333;
+}
+
+.lorem p {
+    margin: 0;
+    font-size: 1;
+}
+
+code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+   color: #333;
+}
